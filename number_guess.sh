@@ -23,7 +23,6 @@ fi
 
 SECRET_NUMBER=$((1 + $RANDOM % 1000))
 echo "Guess the secret number between 1 and 1000:"
-echo "SECRET IS $SECRET_NUMBER"
 GUESSES=0
 GUESS_NUMBER=0
 
